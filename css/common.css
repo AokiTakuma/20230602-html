@@ -64,6 +64,11 @@ img {
 }
 
 @media (max-width: 800px) {
+    .main {
+        padding-top: 50px;
+    }
+
+
     .site-menu ul {
         display: block;
         text-align: center;
@@ -85,13 +90,21 @@ img {
     }
 
     .header-inner {
-        padding-left: 20px;
+        padding-left: 20px; 
         padding-right: 20px;
         height: 100%;
     }
 
     .header-logo {
         width: 100px;
+    }
+
+    .footer-logo {
+        margin-top: 60px;    
+    }
+
+    .copyright {
+        margin-top: 50px;    
     }
 }
 
