@@ -63,6 +63,17 @@ img {
     font-family: 'Cherry Bomb One', cursive;
 }
 
+@media (max-width: 800px) {
+    .site-menu ul {
+        display: block;
+        text-align: center;
+    }
+
+    .site-menu li {
+        margin-top: 20px;
+    }
+}
+
 .footer {
     color: #ffffff;
     background-color: #24211b;
@@ -80,7 +91,7 @@ img {
 }
 
 .copyright {
-    font-size: 14px;
+    font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
 }
